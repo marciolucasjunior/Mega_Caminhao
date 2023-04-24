@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Home');
+});
+
+Route::get('/create', function () {
+    return view('Create');
 });
 
 //POR ONDE ACESSA E RETORNA A VIEW DESEJADA
-Router::get('/cadastrar',function (){
-    return view('cadastrar')
-});
+

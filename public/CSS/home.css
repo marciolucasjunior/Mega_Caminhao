@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+img,a, button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#17AC3D ;
+}
+
+.container_login{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border: 1px solid black;
+    background-color:#153E4D;
+}
+
+.container_login > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin:auto;
+    margin-right:15px;
+    color: white;
+}
+
+.img_logs{
+    margin-right: 50px;
+}
+
+
+.btn_v{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    height: 45px;
+    border: none;
+    border-radius: none;
+}
+
+.btn_v > img {
+    margin-right: 10px;
+}
+
+.login{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:11px;
+    height: 40px;
+    background-color: #153E4D;
+}
+
+
+.login > p {
+    margin-right: 15px;
+    color: white;
+}
+
+
+
+section{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+nav{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 700;
+    height: 100px;
+}
+
+
+.so_caminhao{
+    width: 210px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.links > a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;   
+}
+
+.links > a:hover{
+    color:#17AC3D ;
+}
+
+.icones{
+    display: flex;
+    width: 150px;
+    margin-right: 60px;
+ 
+}
+
+.icones > img {
+    width: 32px;
+    margin: auto;
+}
+
+
+
+.links > img {
+    width: 32px;
+}
+
+button{
+    font-family:'Montserrat', sans-serif; 
+    width: 250px;
+    padding: 12px;
+    font-weight: bolder;
+    color: white;
+    background-color: #1bd249;
+    border: none;
+    border-radius: 2px;
+}
+
+.container_img{
+    height: 400px;
+    background-image: url("https://socaminhoes.com.br/wp-content/uploads/2022/04/cover-volvo.png");
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #1bd249;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+.container_suspense{
+    position: relative;
+    margin: auto;
+    bottom: 80px;
+    height: 300px;
+ 
+}
+.suspense{
+    display: flex;
+    align-items: center;
+    bottom: 100px;
+    width:700px;
+    margin-left:20px;
+    height: 60px;
+    background-color: #153E4D;
+}
+
+.suspense_link{
+   
+    margin-left: 20px;
+}
+.suspense_link > a { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.suspense_link > a:hover{
+    color: #17AC3D;
+}
+
+
+
+.container_form{
+    display: flex;
+    align-items: center;
+    background-color: #153E4D;
+    margin-left: 20px;
+    margin-right:20px ;
+    height:120px ;
+}
+
+form {
+    display: flex;
+}
+
+
+select{
+    width: 200px;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.btn_form{
+    font-size: 16px;
+    margin-left: 180px;
+    height: 50px;
+}
+
+.div_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: #1bd249;
+}
+.anuncie{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid blueviolet;
+    height: 120px;
+    margin-left: 20px;
+    margin-right:20px ;
+    background-color:#E0E0E0 ;
+}
+
+.anuncie > img {
+    margin-left: 20px;
+}
+
+.titulo_2{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.titulo_2 > a {
+    font-size: 16px; 
+}
+
+h2{
+    margin: auto;
+    margin-left: 20px;
+}
+
+.container_cards{
+    display: flex; 
+    max-width: 100%; 
+    margin-bottom: 50px;
+}
+
+.cards{
+    text-align: center;
+    width: 100%;
+}
+
+.cards2{
+    width: 100%;
+}
+
+
+.container_cards2{
+    display: flex;
+    height: 130px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.propaganda{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.propaganda > img {
+    width: 100%;
+}
+
+hr{
+    border: 3px solid  #153E4D;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+
+.container_3{
+    display: flex;
+    max-width: 100%;
+  }
+
+.cards3{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    width: 100%;
+    height: 320px;
+}
+
+.cards3_foto{
+    width: 100%;
+    height: 50%;
+}
+
+.cards3_foto > img {
+    width:100%;
+}
+
+.texto_cards3{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #AAAAAA;
+    height: 25%;
+    margin-top: 5px;
+}
+
+.texto_cards3_2{
+    display: flex;
+    height: 25%;
+    align-items: center;
+}
+
+.btnn{
+    margin: auto;
+    margin-right:0px;
+}
+
+.p_cards3{
+    font-weight: 900;
+}
+
+.img_fundo{
+    align-items: center;
+    height: 450px;
+    width:100%;
+    margin-top: 60px;
+    background-image: url('https://socaminhoes.com.br/wp-content/uploads/2019/10/caminhaomercedes.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.mega{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container_numeros{
+    margin-left: 20px;
+    width: 320px;
+    height: 220px;
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 50%;
+    font-weight:600;
+}
+
+
+.numeros > div {
+    
+    margin-left: 0px;
+    margin-right:12px;
+
+}
+.numeros > p {
+    color: white;
+}
+#bold_numeros{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+
+.div_footer1{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color:  #232628;
+    color: white;
+    height: 215px;
+}
+.div_footer2{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:#153E4D;
+    height: 215px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.text > h3 {
+   margin-bottom:30px;
+}
