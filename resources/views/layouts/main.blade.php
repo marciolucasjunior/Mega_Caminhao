@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/layoute.css">
     <title>@yield('title')</title>
 </head>
 <body>
-    @yield('content')
     <header>
        <div class="container_login">
          <div>
@@ -19,7 +19,7 @@
             <p style="font-size: 12px;margin-right: 10px;">ENTRAR | CADASTRAR-SE</p></div>
        </div>
     </header>
-
+    @yield('content')
     <footer>
         <div class="div_footer1">
             <div class="text">
